@@ -51,7 +51,7 @@ module Travis
 
         def addons
           addons = config.notifications.flatten + ['scheduler', 'keenio']
-          addons << ['merge'] if ENV['NOTIFY_MERGE']
+          addons << 'merge' if ENV['NOTIFY_MERGE']
           addons
         end
 
