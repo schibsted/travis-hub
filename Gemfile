@@ -27,6 +27,7 @@ gem 'redis-namespace'
 gem 'dalli'
 gem 'activerecord'
 gem 'faraday'
+gem 'faraday_middleware'
 
 gem 'gh'
 gem 'keen'
